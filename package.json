@@ -1,0 +1,30 @@
+{
+  "name": "get-binary",
+  "version": "1.0.0",
+  "description": "download binary data from a url, compatible with react-native",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test",
+    "lint": "eslint --quiet ."
+  },
+  "keywords": [
+    "xhr",
+    "xhr-get",
+    "get-binary"
+  ],
+  "author": "mvayngrib",
+  "license": "MIT",
+  "react-native": {
+    "./index.js": "./react-native.js"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "node-fetch": "^2.0.0"
+  },
+  "devDependencies": {
+    "co": "^4.6.0",
+    "nock": "^9.1.6",
+    "node-fetch": "^2.0.0",
+    "tape": "^4.8.0"
+  }
+}
